@@ -127,7 +127,7 @@ function sendToWhatsApp() {
   const name = encodeURIComponent(document.getElementById('name').value);
   const subject = encodeURIComponent(document.getElementById('subject').value);
   const message = encodeURIComponent(document.getElementById('message').value);
-  const whatsappNumber = "3354381020"; // Replace with your WhatsApp number
+  const whatsappNumber = "3259727611"; // Replace with your WhatsApp number
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hello,%20My%20name%20is%20${name}.%20I%20would%20like%20to%20discuss%20${subject}%20with%20you.%20Here%20is%20my%20message:%20${message}`;
 
   window.open(whatsappLink, '_blank');
